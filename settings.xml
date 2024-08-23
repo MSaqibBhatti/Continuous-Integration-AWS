@@ -12,6 +12,9 @@
 <profiles>
   <profile>
     <id>visualpath-vi-aws-repo</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
     <repositories>
       <repository>
         <id>visualpath-vi-aws-repo</id>
@@ -20,9 +23,6 @@
     </repositories>
   </profile>
 </profiles>
-<activeProfiles>
-        <activeProfile>default</activeProfile>
-    </activeProfiles>
 <mirrors>
   <mirror>
     <id>visualpath-vi-aws-repo</id>
